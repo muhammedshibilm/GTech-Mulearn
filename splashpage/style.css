@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gill Sans", sans-serif;
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+    padding: 30px;
+}
+.header >img{
+    height: 75px;
+}
+.header  > h1{
+    font-size: 50px;
+}
+main{
+
+    background-color: #cccccc;
+}
+article{
+    /* in this article div in child has 2 div include in that two dive make in one row when screen in decrecing time the one dive go above another in make below in automatically */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+
+}
