@@ -4,3 +4,6 @@
 [submodule "biography-page"]
 	path = biography-page
 	url = https://github.com/muhammedshibilm/biography-page.git
+[submodule "Todo-App"]
+	path = Todo-App
+	url = https://github.com/muhammedshibilm/Todo-App.git
