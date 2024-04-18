@@ -1,3 +1,6 @@
 [submodule "silly-story-generator"]
 	path = silly-story-generator
 	url = https://github.com/muhammedshibilm/silly-story-generator.git
+[submodule "biography-page"]
+	path = biography-page
+	url = https://github.com/muhammedshibilm/biography-page.git
