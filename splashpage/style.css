@@ -25,9 +25,48 @@ main{
 }
 article{
     /* in this article div in child has 2 div include in that two dive make in one row when screen in decrecing time the one dive go above another in make below in automatically */
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+article > .row{
+    display: contents;
+}
+article > .row > .columns{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-   
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+article >.row>.columns > h2,p{
+    align-self: flex-start;
+    padding: 10px;
+}
 
+.further-info{
+    height: 150px;
+    background-color: rgb(188, 72, 72);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.further-info > img{
+    width: 150px;
+    padding: 10px;
+}
+.pandas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* above mobile device code  */
+@media (min-width: 769px) {
+    article{
+       grid-template-columns: 1fr 1fr;
+   }
+   .further-info > img{
+       width: 180px;
+   }
+   
 }
