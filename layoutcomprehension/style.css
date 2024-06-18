@@ -1,0 +1,79 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* header stying area */
+header {
+    font-size: x-large;
+    padding: 50px;
+}
+
+/* nav bar stying area */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: black;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* sessions styling area */
+section {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    
+}
+
+/* article syting area */
+article > h1{
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article>p{
+    font-size: medium;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+article > img {
+    float: left;
+    margin: 0 15px 15px 0; 
+}
+
+/* aside styling area */
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+aside > h1{
+    font-size: x-large;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.gallery{
+    display: grid;
+    gap: 2px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+}
+.gallery >img{
+    width: 120px;
+    height: 120px;
+}
