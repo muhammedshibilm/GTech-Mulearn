@@ -1,0 +1,47 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222; 
+    color: #ccc; 
+}
+
+.userdata{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+form >button,input{
+    padding: 8px;
+}
+.code-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #333; 
+    width: 80%;
+    margin: 50px auto;
+    white-space: pre-wrap;
+    overflow-x: auto; 
+}
+pre {
+    margin: 0;
+}
+
+.copybutton{
+    float: right;
+    padding: 10px;
+    background-color: white;
+    color: black;
+}
+
+#successMessage{
+    position: absolute;
+    right: 0;
+    top: 30px;
+    z-index: 1;
+    margin-right: 30px;
+    width: 200px;
+}

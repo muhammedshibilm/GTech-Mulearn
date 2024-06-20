@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Java Code Snippet</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/themes/prism-okaidia.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="successMessage" class="alert alert-success d-none " role="alert"></div>
+
+    <div class="userdata">
+        <h1>Wecome <span></span></h1>
+        <form action="">
+            <input type="text" id="name" placeholder="Enter your  name please..." required>
+            <button class="addname" onclick="changeName()">Press me</button>
+        </form>
+    </div>
+    <div class="code-container" id="codeSnippet">
+        <select id="language">
+            <option value="java">Java</option>
+            <option value="c">C</option>
+            <option value="javascript">JS</option>
+        </select>
+        <button class="copybutton">copy</button>
+        <pre><code id="displayedCode" class="language-java">
+            public class Main {
+                public static void main(String[] args) {
+                    System.out.println("Hello, World!");
+                }
+            }
+        </code></pre>
+    </div>
+    <p style="text-align: center;">Copyright nobody. Use the code as you like.</p>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/prism.min.js"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.27.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
