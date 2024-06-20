@@ -15,7 +15,7 @@ updateCodeSnippet('java', `public class Main {
 
 //data removing area 
 if (localStorage.getItem('button')) {
-    addbutton.innerHTML = 'Revoke';
+    addbutton.innerHTML = 'Forgot';
     document.querySelector('input').removeAttribute('required')
     addbutton.addEventListener('click', () => {
         localStorage.removeItem('name');
