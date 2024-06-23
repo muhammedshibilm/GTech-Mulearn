@@ -22,7 +22,7 @@ This repository contains multiple folders, each representing a different project
 | Silly Story Generator | [click me](https://muhammedshibilm.github.io/silly-story-generator/) |
 | Splash Page | [click me](https://muhammedshibilm.github.io/splashpage/) |
 | Structured Planet Data | [click me](https://muhammedshibilm.github.io/structuredplanetdata/) |
-
+| Bouncing Ball | [click me](https://muhammedshibilm.github.io/GTech-mulearn/bouncingballs) |
 
 
 ## 📖 Usage
